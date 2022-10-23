@@ -81,8 +81,8 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     _epubReaderController = EpubController(
       document: EpubDocument.openAsset('assets/alice.epub'),
-      // epubCfi:
-      //     'epubcfi(/6/26[id4]!/4/2/2[id4]/22)', // book.epub Chapter 3 paragraph 10
+      epubCfi:
+          'epubcfi(/6/18[chapter08]!/4/2/2)', // book.epub Chapter 3 paragraph 10
       // epubCfi:
       //     'epubcfi(/6/6[chapter-2]!/4/2/1612)', // book_2.epub Chapter 16 paragraph 3
     );
